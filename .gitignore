@@ -1,0 +1,33 @@
+# Jenkins pipeline logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Pipeline workspaces
+workspace/
+builds/
+jobs/
+lastStable*
+lastSuccessful*
+
+# SSH keys or secrets
+*.pem
+*.key
+*.crt
+.env
+secrets/
+
+# Docker artifacts (if used)
+*.tar
+docker-compose.override.yml
+
+# IDE and OS-specific
+.DS_Store
+*.bak
+.vscode/
+.idea/
+
+# Node or Python dependencies (if used)
+node_modules/
+__pycache__/
+*.pyc
